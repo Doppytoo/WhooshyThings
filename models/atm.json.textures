@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "gray_concrete",
+        "1": "green_concrete",
+        "2": "green_concrete_powder",
+        "3": "light_gray_concrete",
+        "4": "lime_concrete",
+        "5": "quartz_block_side",
+        "6": "red_concrete",
+        "7": "smooth_stone",
+        "missing": "green_concrete"
+      },
+      "name": "default"
+    }
+  }
+}

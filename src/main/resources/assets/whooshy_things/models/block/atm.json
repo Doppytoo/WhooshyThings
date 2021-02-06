@@ -1,0 +1,16 @@
+{
+  "parent": "whooshy_things:custom/atm",
+  "textures": {
+    "all": "whooshy_things:blocks/green_concrete",
+    "particle": "whooshy_things:blocks/green_concrete",
+    "0": "whooshy_things:blocks/gray_concrete",
+    "1": "whooshy_things:blocks/green_concrete",
+    "2": "whooshy_things:blocks/green_concrete_powder",
+    "3": "whooshy_things:blocks/light_gray_concrete",
+    "4": "whooshy_things:blocks/lime_concrete",
+    "5": "whooshy_things:blocks/quartz_block_side",
+    "6": "whooshy_things:blocks/red_concrete",
+    "7": "whooshy_things:blocks/smooth_stone",
+    "missing": "whooshy_things:blocks/green_concrete"
+  }
+}

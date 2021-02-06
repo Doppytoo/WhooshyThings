@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "whooshy_things:items/sber_32"
+  }
+}

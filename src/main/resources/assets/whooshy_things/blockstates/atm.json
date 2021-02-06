@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "whooshy_things:block/atm"
+    },
+    "facing=east": {
+      "model": "whooshy_things:block/atm",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "whooshy_things:block/atm",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "whooshy_things:block/atm",
+      "y": 270
+    }
+  }
+}

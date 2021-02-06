@@ -1,0 +1,158 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Coin"
+          },
+          "color": {
+            "value": -16750849,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -26368,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "D1",
+          "onClick": {
+            "name": "Deposit10"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "D1",
+          "x": 154,
+          "y": 70
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "D16",
+          "onClick": {
+            "name": "Deposit100"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "D16",
+          "x": 193,
+          "y": 70
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "D64",
+          "onClick": {
+            "name": "Deposit1000"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "D64",
+          "x": 237,
+          "y": 70
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "W1",
+          "onClick": {
+            "name": "Withdraw10"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "W1",
+          "x": 154,
+          "y": 97
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "W16",
+          "onClick": {
+            "name": "Withdraw100"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "W16",
+          "x": 193,
+          "y": 97
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "W64",
+          "onClick": {
+            "name": "Withdraw1000"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "W64",
+          "x": 237,
+          "y": 97
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Balance: <VAR:Balance>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Balance: <VAR:Balance>",
+          "x": 133,
+          "y": 56
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "ATM",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "ATM",
+          "x": 133,
+          "y": 44
+        }
+      }
+    ]
+  }
+}
